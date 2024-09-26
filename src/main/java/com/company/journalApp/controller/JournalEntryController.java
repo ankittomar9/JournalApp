@@ -1,3 +1,4 @@
+/*
 package com.company.journalApp.controller;
 
 import com.company.journalApp.entity.JournalEntry;
@@ -9,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/journal")
+@RequestMapping("/_journal")
 public class JournalEntryController {
 
     private Map<Long, JournalEntry> JournalEntries =new HashMap<>();
@@ -41,3 +42,4 @@ public class JournalEntryController {
 
 
 }
+*/
